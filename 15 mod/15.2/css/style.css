@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+}
+.btn{
+  box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+  width: 150px;
+  height: 50px;
+  background-color: #485563;
+  border-radius: 10px;
+  border: none;
+  margin-top: 45vh;
+  transition: box-shadow 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover{
+  box-shadow: -8px -8px 20px #101316, 10px 7px 20px #4e5967;
+  transition: box-shadow 1s ease;
+  cursor: pointer;
+}
+.btn__icon {
+ width: 30px;
+ height: 30px;
+}
